@@ -163,3 +163,74 @@ body {
     
 }
 
+.welcome-sec {
+    h3 {
+        font-size: 1.6em;
+        font-weight: 600;
+        text-align: center;
+        padding: 10px;
+    }
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+    padding: 20px;
+
+    button {
+        height: 40px;
+        width: 370px;
+        border: none;
+        border-radius: 5px;
+        text-transform: uppercase;
+        font-weight: 600;
+        
+    }
+        #free {
+            background-color: #ffff;
+            color: #540B51;
+        }
+        #sales {
+            background-color: #540B51;
+            border: solid #ffff 1px;
+
+        }
+}
+
+.footer {
+    background-color: #ffff;
+    padding: 20px 10px;
+    .footer-links {
+        color: #191817;
+        font-weight: 700;
+        font-size: .8em;
+        line-height: 30px;
+        list-style-type: none;
+        padding-top: 10px;
+        #slack {
+            color: #2E71A6;
+        }
+    }
+    hr {
+        border: none;          /* Remove default border */
+        height: 1px;          /* Set height for the line */
+        background-color: #969696; /* Set the color of the line */
+        margin: 20px 0;       /* Add vertical spacing around the <hr> */     
+    }
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px auto;
+    li {
+        list-style: none;
+    }
+}
+
+.copyright {
+    font-size: .7em;
+    color: #454245;
+    text-align: center;
+
+}
