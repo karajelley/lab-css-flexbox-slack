@@ -8,3 +8,80 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h3, p, button {
+    color: #ffff;
+}
+
+body {
+ background-color: #540B51;
+}
+
+.menu-items {
+    display: none;
+}
+
+.navbar-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    #logo {
+        max-width: 102px;
+        height: auto;
+    }
+}
+
+.nav-icons {
+    button {
+        background: none;
+        border: none;
+        margin: 10px;
+    }
+}
+
+.title-div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+
+.signup-div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    button {
+        height: 40px;
+        width: 370px;
+        border: none;
+        border-radius: 5px;
+        text-transform: uppercase;
+        font-weight: 550;
+    }
+    #email {
+        color: #540B51;
+    }
+    #google {
+        background-color: #4285F4;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+
+        span {
+            margin-left: 80px;
+        }
+
+        img {
+            width: 30px;
+            background-color: #ffff;
+            padding: 5px;
+        }
+    }
+}
+
