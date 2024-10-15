@@ -8,11 +8,13 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
 }
 
 h1, h3, p, button {
@@ -31,9 +33,10 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    #logo {
-        max-width: 102px;
+    #logo{
+        width: 100px;
         height: auto;
+        object-fit: contain;
     }
 }
 
@@ -50,12 +53,23 @@ body {
     flex-direction: column;
     text-align: center;
     padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    h1{
+        width: 95%;
+    }
+    #orange{
+        color: #ECB12F;
+    }
+    
 }
 
 .signup-div {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin-top: 15px;
     button {
         height: 40px;
         width: 370px;
@@ -72,8 +86,7 @@ body {
         display: flex;
         align-items: center;
         padding: 5px;
-
-        span {
+        span{
             margin-left: 80px;
         }
 
@@ -83,5 +96,70 @@ body {
             padding: 5px;
         }
     }
+}
+
+#ui-img{
+    margin-top: 40px;
+    width: 150%;
+}
+
+.companies{
+    background-color: #F3EAE2;
+    padding: 40px 0;
+    p{
+        color: #191817;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 13px;
+    }
+    .comp-logos{
+        margin: 20px auto 0;
+        width: 95%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        img{
+            width: auto;
+            height: 35px;
+            object-fit: contain;
+        }
+    }
+}
+
+.stats{
+    background-color: #FFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    h3, span{
+        color: #540B51;
+        
+    }
+
+    li, p{
+        color: black;
+        font-size: .8em;
+        list-style-type: none;
+    }
+    h3{
+        font-size: 1.5em;
+    }
+    span{
+        font-size: 3em;
+        font-weight: 700;
+    }
+    li{
+        font-weight: 700;
+        margin-top: 20px;
+        p{
+            margin: 0 auto;
+            width: 50%;
+        }
+    }
+    
 }
 
